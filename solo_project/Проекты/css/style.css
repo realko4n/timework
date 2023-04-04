@@ -1,0 +1,363 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.head {
+    background: #1e5799;
+    background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #1e5799 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    /* margin-bottom: 15px; */
+}
+  
+.img-in-head {
+    height: 100px;
+    z-index: 3;
+    margin-left: 5px;
+}
+  
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.spisok-in-head {
+    display: flex;  
+}
+
+ul li {
+    margin-right: 80px;  
+    margin-top: 35px;  
+}
+    
+ul li:last-child {    
+    margin-right: 0px;   
+}
+    
+ul li a {
+    color: white;
+    font-size: 35px;
+}
+    
+ul li a:hover {
+    color: white;
+}
+    
+.button-in-head {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: white;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+        
+button {
+    color: #2973E3;
+    color: black;
+            
+}
+
+button a:visited {
+    color:black
+}
+        
+.user {
+    width: 50px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+   
+.kabinet {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project {
+    text-decoration:underline;
+}
+
+.title h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	color: #fcfffc;
+	margin-bottom: 50px;
+}
+
+.list_menu a {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	color: #fcfffc;
+	border-left: 2px solid #2973E3;
+	transition: 0.2s ease;
+	padding-left: 5px;
+}
+
+.list_menu a:hover {
+	border-left: 2px solid #2973E3;
+	transition: 0.2s ease;
+	padding-left: 10px;
+}
+
+.list_menu li {
+	margin: 20px 0;
+}
+
+.list_menu {
+	margin-bottom: 50px;
+}
+
+.menu {
+	padding: 25vh 50px;
+    background: #1e5799;
+    background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #1e5799 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+	height: 100vh;
+    border-right: 10px solid rgba(0, 0, 0, 0.5);
+    border-top: 10px solid rgba(0, 0, 0, 0.5) ;
+	position: fixed;
+	left: -346px;
+	transition: 0.4s ease;
+}
+
+.menu:hover {
+	left: 0;
+	transition: 0.5s ease;
+}
+
+.content {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.footer_menu p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	color: #fcfffc;
+	opacity: 0.7;
+}
+
+.offcanvas {
+    z-index: 1; 
+    background-color: #E7EDFF;
+    overflow:hidden;
+}
+
+.kontent {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: block;
+}
+
+.monserat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.kochnev {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+.project-kochnev {
+    position: relative; 
+}
+
+.number_project {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+}
+
+.zadachi {
+   font-size: 20px;
+   font-weight:bold; 
+}
+
+.number_zadachi, .number_zadachi-two {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button_plus {
+    border: none;
+}
+
+.name_jobber {
+    display: flex;
+    align-items: center;
+}
+
+.img_people {
+    margin-right: 10px;
+}
+
+.reddddd {
+    color: red;
+}
+
+.black {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.stolbik {
+    border: 1px solid black;
+
+}
+
+.dasdad {
+    display: flex;
+}
+
+.fsfdf {
+    width: 100%;
+    border-right: 1px solid black;
+    background-color: #1e5799;
+    padding: 15px 15px;
+    
+    color: white;
+    font-size: 25px;
+    
+    display: flex;
+    text-align: right; 
+}
+
+.offcanvas.offcanvas-start {
+    width: 300px;
+    /* top: 100px; */
+    /* border: 2px solid black; */
+    overflow-y: auto;
+    max-height: 500px;
+    margin: 0px;
+    
+}
+
+/* .offcanvas.offcanvas-start::-webkit-scrollbar {
+    width: 5px;
+    background-color: #7db9e8;
+
+} */
+
+.offcanvas.offcanvas-start::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .offcanvas.offcanvas-start::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
+  
+  .offcanvas.offcanvas-start::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient( #1e5799 0%,#7db9e8 100%);
+  }
+
+
+#project-bok-panel {
+    display: none;
+    /* overflow-y: auto; */
+}
+
+#groups-bok-panel {
+    display: none;
+    /* overflow-y: auto; */
+}
+
+#tasks-bok-panel {
+    display: none;
+    /* overflow-y: auto; */
+}
+
+
+
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white; 
+}
+
+.fsfdff {
+    width: 100%;
+    height: 218px;
+    background-color: white;
+    border-right: 1px solid black;
+}
+
+.rovnie {
+    margin-right: 15px;
+}
+
+.reddddds {
+    color: red;
+}
+
+.padding {
+    padding: 15px 15px;
+}
+
+.project-spisok {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.project-spisok:hover {
+    color: black;
+    transform:translateX(20px);
+}
+
+.offcanvas-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.treeline, .treeline ul, .treeline li {
+    margin: 0; padding: 0; line-height: 1.2; list-style: none;
+    color: rgb(155, 24, 24);
+    font-weight: bold;
+ }
+ .treeline ul {margin: 0 0 0 15px; /* отступ вертикальной линии */}
+ .treeline > li:not(:only-child), .treeline li li {
+    position: relative;
+    padding: 3px 0 0 25px; /* отступ текста */
+ }
+ /* Стиль вертикальной линии */
+ .treeline li:not(:last-child) { border-left: 3px solid #000000;}
+ /* Стили горизонтальной линии*/  
+ .treeline li li:before, .treeline > li:not(:only-child):before {
+    content: ""; position: absolute; top: 0; left: 0;
+    width: 1.1em; height: .7em; border-bottom:3px solid #000000;
+ }
+ /* Вертикальная линия последнего пункта в списка */  
+ .treeline li:last-child:before {
+    width: calc(1.1em - 1px); border-left: 3px solid #000000;
+ }
+
+ 
+ #drevo {
+    padding-left: 20px;
+    display: none;
+ }
+
+ .main-div {
+    display: flex;
+    overflow-y: auto;
+    max-height: 500px;
+ }
